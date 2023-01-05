@@ -1,4 +1,4 @@
-`prql-go` is an cgo-free alternative to https://github.com/PRQL/prql/blob/main/prql-lib/README.md 
+`prql-go` is a cgo-free alternative to https://github.com/PRQL/prql/blob/main/prql-lib/README.md 
 
 It uses https://github.com/tetratelabs/wazero as a WASM runtime to compile PRQL to SQL
 
@@ -32,3 +32,5 @@ fmt.Println(sql)
 // FROM
 //   employees
 ```
+
+The `prql-wasi.wasm` file comes from https://github.com/pims/prql-wasi
